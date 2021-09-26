@@ -1,0 +1,1858 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title "MSX KEYBOARD"
+Date "2021-07-19"
+Rev "V1"
+Comp "BY MVP"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	7300 1650 7300 2000
+Wire Wire Line
+	6300 1650 6300 2000
+Wire Wire Line
+	5300 1650 5300 2000
+Wire Wire Line
+	4300 1650 4300 2000
+Wire Wire Line
+	3300 1650 3300 2000
+Wire Wire Line
+	2300 1650 2300 2000
+Wire Wire Line
+	6700 7000 6650 7000
+Wire Wire Line
+	5700 7000 5650 7000
+Wire Wire Line
+	4700 7000 4650 7000
+$Comp
+L MSX1-cache:Switch_SW_Push K_CODE1
+U 1 1 600FB6C4
+P 8000 6000
+F 0 "K_CODE1" H 8000 6233 60  0000 C CNN
+F 1 "KEYSW" H 8000 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8000 6000 60  0001 C CNN
+F 3 "" H 8000 6000 60  0000 C CNN
+	1    8000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_10
+U 1 1 600F5B57
+P 9950 2000
+F 0 "K_10" H 9950 2233 60  0000 C CNN
+F 1 "KEYSW" H 9950 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-6.25U-NoLED" H 9950 2000 60  0001 C CNN
+F 3 "" H 9950 2000 60  0000 C CNN
+	1    9950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_GRAPH1
+U 1 1 600FBB9A
+P 8000 4000
+F 0 "K_GRAPH1" H 8000 4233 60  0000 C CNN
+F 1 "KEYSW" H 8000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8000 4000 60  0001 C CNN
+F 3 "" H 8000 4000 60  0000 C CNN
+	1    8000 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 7400 0    50   Input ~ 0
+row5
+$Comp
+L MSX1-cache:Switch_SW_Push K_CAPS1
+U 1 1 600FCEAD
+P 8000 5000
+F 0 "K_CAPS1" H 8000 5233 60  0000 C CNN
+F 1 "KEYSW" H 8000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 8000 5000 60  0001 C CNN
+F 3 "" H 8000 5000 60  0000 C CNN
+	1    8000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_11
+U 1 1 600F1AE8
+P 4000 7000
+F 0 "K_11" H 4000 7233 60  0000 C CNN
+F 1 "KEYSW" H 4000 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4000 7000 60  0001 C CNN
+F 3 "" H 4000 7000 60  0000 C CNN
+	1    4000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_SHIFT1
+U 1 1 600FFDA9
+P 7850 1950
+F 0 "K_SHIFT1" H 7850 2183 60  0000 C CNN
+F 1 "KEYSW" H 7850 1850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 7850 1950 60  0001 C CNN
+F 3 "" H 7850 1950 60  0000 C CNN
+	1    7850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_SLASH1
+U 1 1 600FD3FD
+P 4000 6000
+F 0 "K_SLASH1" H 4000 6233 60  0000 C CNN
+F 1 "KEYSW" H 4000 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4000 6000 60  0001 C CNN
+F 3 "" H 4000 6000 60  0000 C CNN
+	1    4000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_DOT1
+U 1 1 600F5289
+P 4000 5000
+F 0 "K_DOT1" H 4000 5233 60  0000 C CNN
+F 1 "KEYSW" H 4000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4000 5000 60  0001 C CNN
+F 3 "" H 4000 5000 60  0000 C CNN
+	1    4000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_COMMA1
+U 1 1 600F53C2
+P 4000 4000
+F 0 "K_COMMA1" H 4000 4233 60  0000 C CNN
+F 1 "KEYSW" H 4000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4000 4000 60  0001 C CNN
+F 3 "" H 4000 4000 60  0000 C CNN
+	1    4000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_M1
+U 1 1 600F0F55
+P 6000 4000
+F 0 "K_M1" H 6000 4233 60  0000 C CNN
+F 1 "KEYSW" H 6000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6000 4000 60  0001 C CNN
+F 3 "" H 6000 4000 60  0000 C CNN
+	1    6000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_N1
+U 1 1 600F38C3
+P 5900 5000
+F 0 "K_N1" H 5900 5233 60  0000 C CNN
+F 1 "KEYSW" H 5900 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5900 5000 60  0001 C CNN
+F 3 "" H 5900 5000 60  0000 C CNN
+	1    5900 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_B1
+U 1 1 600F544E
+P 4000 8800
+F 0 "K_B1" H 4000 9033 60  0000 C CNN
+F 1 "KEYSW" H 4000 8700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4000 8800 60  0001 C CNN
+F 3 "" H 4000 8800 60  0000 C CNN
+	1    4000 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 6000 5650 6000
+$Comp
+L MSX1-cache:Switch_SW_Push K_V1
+U 1 1 600FA78E
+P 6900 5000
+F 0 "K_V1" H 6900 5233 60  0000 C CNN
+F 1 "KEYSW" H 6900 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6900 5000 60  0001 C CNN
+F 3 "" H 6900 5000 60  0000 C CNN
+	1    6900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 6000 4650 6000
+$Comp
+L MSX1-cache:Switch_SW_Push K_C1
+U 1 1 600FEA7C
+P 5000 2000
+F 0 "K_C1" H 5000 2233 60  0000 C CNN
+F 1 "KEYSW" H 5000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5000 2000 60  0001 C CNN
+F 3 "" H 5000 2000 60  0000 C CNN
+	1    5000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_X1
+U 1 1 600F8C44
+P 6900 7000
+F 0 "K_X1" H 6900 7233 60  0000 C CNN
+F 1 "KEYSW" H 6900 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6900 7000 60  0001 C CNN
+F 3 "" H 6900 7000 60  0000 C CNN
+	1    6900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_Z1
+U 1 1 600F4F86
+P 6950 8750
+F 0 "K_Z1" H 6950 8983 60  0000 C CNN
+F 1 "KEYSW" H 6950 8650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6950 8750 60  0001 C CNN
+F 3 "" H 6950 8750 60  0000 C CNN
+	1    6950 8750
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 6400 0    50   Input ~ 0
+row4
+$Comp
+L MSX1-cache:Switch_SW_Push K_SHIFT2
+U 1 1 600FC3B4
+P 7850 2300
+F 0 "K_SHIFT2" H 7850 2533 60  0000 C CNN
+F 1 "KEYSW" H 7850 2200 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U-NoLED" H 7850 2300 60  0001 C CNN
+F 3 "" H 7850 2300 60  0000 C CNN
+	1    7850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_singlequote1
+U 1 1 600F397F
+P 4000 3000
+F 0 "K_singlequote1" H 4000 3233 60  0000 C CNN
+F 1 "KEYSW" H 4000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4000 3000 60  0001 C CNN
+F 3 "" H 4000 3000 60  0000 C CNN
+	1    4000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_QUOTE1
+U 1 1 600FF18A
+P 4000 2000
+F 0 "K_QUOTE1" H 4000 2233 60  0000 C CNN
+F 1 "KEYSW" H 4000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4000 2000 60  0001 C CNN
+F 3 "" H 4000 2000 60  0000 C CNN
+	1    4000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_SEMIC1
+U 1 1 600FD2CD
+P 3000 8800
+F 0 "K_SEMIC1" H 3000 9033 60  0000 C CNN
+F 1 "KEYSW" H 3000 8700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 8800 60  0001 C CNN
+F 3 "" H 3000 8800 60  0000 C CNN
+	1    3000 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_L1
+U 1 1 600FF4FC
+P 6000 3000
+F 0 "K_L1" H 6000 3233 60  0000 C CNN
+F 1 "KEYSW" H 6000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6000 3000 60  0001 C CNN
+F 3 "" H 6000 3000 60  0000 C CNN
+	1    6000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_K1
+U 1 1 600FFECA
+P 6000 2000
+F 0 "K_K1" H 6000 2233 60  0000 C CNN
+F 1 "KEYSW" H 6000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6000 2000 60  0001 C CNN
+F 3 "" H 6000 2000 60  0000 C CNN
+	1    6000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_J1
+U 1 1 600F10ED
+P 4950 8750
+F 0 "K_J1" H 4950 8983 60  0000 C CNN
+F 1 "KEYSW" H 4950 8650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4950 8750 60  0001 C CNN
+F 3 "" H 4950 8750 60  0000 C CNN
+	1    4950 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_H1
+U 1 1 600F9AEF
+P 4900 7000
+F 0 "K_H1" H 4900 7233 60  0000 C CNN
+F 1 "KEYSW" H 4900 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4900 7000 60  0001 C CNN
+F 3 "" H 4900 7000 60  0000 C CNN
+	1    4900 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 5000 6650 5000
+$Comp
+L MSX1-cache:Switch_SW_Push K_G1
+U 1 1 600FD165
+P 4900 6000
+F 0 "K_G1" H 4900 6233 60  0000 C CNN
+F 1 "KEYSW" H 4900 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4900 6000 60  0001 C CNN
+F 3 "" H 4900 6000 60  0000 C CNN
+	1    4900 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5000 5650 5000
+$Comp
+L MSX1-cache:Switch_SW_Push K_F6
+U 1 1 600F1B60
+P 4900 5000
+F 0 "K_F6" H 4900 5233 60  0000 C CNN
+F 1 "KEYSW" H 4900 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4900 5000 60  0001 C CNN
+F 3 "" H 4900 5000 60  0000 C CNN
+	1    4900 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 5000 4650 5000
+$Comp
+L MSX1-cache:Switch_SW_Push K_D1
+U 1 1 600FE40F
+P 5000 3000
+F 0 "K_D1" H 5000 3233 60  0000 C CNN
+F 1 "KEYSW" H 5000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5000 3000 60  0001 C CNN
+F 3 "" H 5000 3000 60  0000 C CNN
+	1    5000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_S1
+U 1 1 600F564F
+P 7000 2000
+F 0 "K_S1" H 7000 2233 60  0000 C CNN
+F 1 "KEYSW" H 7000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7000 2000 60  0001 C CNN
+F 3 "" H 7000 2000 60  0000 C CNN
+	1    7000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_A1
+U 1 1 600F516C
+P 4000 7950
+F 0 "K_A1" H 4000 8183 60  0000 C CNN
+F 1 "KEYSW" H 4000 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4000 7950 60  0001 C CNN
+F 3 "" H 4000 7950 60  0000 C CNN
+	1    4000 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 5400 0    50   Input ~ 0
+row3
+$Comp
+L MSX1-cache:Switch_SW_Push K_CTRL1
+U 1 1 600F6D5E
+P 8000 3000
+F 0 "K_CTRL1" H 8000 3233 60  0000 C CNN
+F 1 "KEYSW" H 8000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.75U-NoLED" H 8000 3000 60  0001 C CNN
+F 3 "" H 8000 3000 60  0000 C CNN
+	1    8000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_HOME1
+U 1 1 600FAA5F
+P 10000 3000
+F 0 "K_HOME1" H 10000 3233 60  0000 C CNN
+F 1 "KEYSW" H 10000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10000 3000 60  0001 C CNN
+F 3 "" H 10000 3000 60  0000 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_SELECT1
+U 1 1 600F929C
+P 9000 7950
+F 0 "K_SELECT1" H 9000 8183 60  0000 C CNN
+F 1 "KEYSW" H 9000 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 7950 60  0001 C CNN
+F 3 "" H 9000 7950 60  0000 C CNN
+	1    9000 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_ENTER1
+U 1 1 600F12D4
+P 9000 8750
+F 0 "K_ENTER1" H 9000 8983 60  0000 C CNN
+F 1 "KEYSW" H 9000 8650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 9000 8750 60  0001 C CNN
+F 3 "" H 9000 8750 60  0000 C CNN
+	1    9000 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_]1
+U 1 1 600FEB6F
+P 3000 7950
+F 0 "K_]1" H 3000 8183 60  0000 C CNN
+F 1 "KEYSW" H 3000 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 7950 60  0001 C CNN
+F 3 "" H 3000 7950 60  0000 C CNN
+	1    3000 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_[1
+U 1 1 600FEC1F
+P 3000 7000
+F 0 "K_[1" H 3000 7233 60  0000 C CNN
+F 1 "KEYSW" H 3000 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 7000 60  0001 C CNN
+F 3 "" H 3000 7000 60  0000 C CNN
+	1    3000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_P1
+U 1 1 600FA544
+P 5900 7000
+F 0 "K_P1" H 5900 7233 60  0000 C CNN
+F 1 "KEYSW" H 5900 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5900 7000 60  0001 C CNN
+F 3 "" H 5900 7000 60  0000 C CNN
+	1    5900 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_O1
+U 1 1 600F0059
+P 5900 6000
+F 0 "K_O1" H 5900 6233 60  0000 C CNN
+F 1 "KEYSW" H 5900 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5900 6000 60  0001 C CNN
+F 3 "" H 5900 6000 60  0000 C CNN
+	1    5900 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_I1
+U 1 1 600F9BAB
+P 4950 7950
+F 0 "K_I1" H 4950 8183 60  0000 C CNN
+F 1 "KEYSW" H 4950 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 4950 7950 60  0001 C CNN
+F 3 "" H 4950 7950 60  0000 C CNN
+	1    4950 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_U1
+U 1 1 600F428F
+P 7000 4000
+F 0 "K_U1" H 7000 4233 60  0000 C CNN
+F 1 "KEYSW" H 7000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7000 4000 60  0001 C CNN
+F 3 "" H 7000 4000 60  0000 C CNN
+	1    7000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_Y1
+U 1 1 600F876B
+P 6950 7950
+F 0 "K_Y1" H 6950 8183 60  0000 C CNN
+F 1 "KEYSW" H 6950 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6950 7950 60  0001 C CNN
+F 3 "" H 6950 7950 60  0000 C CNN
+	1    6950 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_T1
+U 1 1 600FC4AC
+P 7000 3000
+F 0 "K_T1" H 7000 3233 60  0000 C CNN
+F 1 "KEYSW" H 7000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 7000 3000 60  0001 C CNN
+F 3 "" H 7000 3000 60  0000 C CNN
+	1    7000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_R1
+U 1 1 600FBB67
+P 5950 8750
+F 0 "K_R1" H 5950 8983 60  0000 C CNN
+F 1 "KEYSW" H 5950 8650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5950 8750 60  0001 C CNN
+F 3 "" H 5950 8750 60  0000 C CNN
+	1    5950 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_E1
+U 1 1 600F8888
+P 5000 4000
+F 0 "K_E1" H 5000 4233 60  0000 C CNN
+F 1 "KEYSW" H 5000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5000 4000 60  0001 C CNN
+F 3 "" H 5000 4000 60  0000 C CNN
+	1    5000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_W1
+U 1 1 600F28B0
+P 6950 6000
+F 0 "K_W1" H 6950 6233 60  0000 C CNN
+F 1 "KEYSW" H 6950 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 6950 6000 60  0001 C CNN
+F 3 "" H 6950 6000 60  0000 C CNN
+	1    6950 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_Q1
+U 1 1 600FD3BA
+P 5950 7950
+F 0 "K_Q1" H 5950 8183 60  0000 C CNN
+F 1 "KEYSW" H 5950 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 5950 7950 60  0001 C CNN
+F 3 "" H 5950 7950 60  0000 C CNN
+	1    5950 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 4400 0    50   Input ~ 0
+row2
+$Comp
+L MSX1-cache:Switch_SW_Push K_TAB1
+U 1 1 600F2EFE
+P 9000 5000
+F 0 "K_TAB1" H 9000 5233 60  0000 C CNN
+F 1 "KEYSW" H 9000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U-NoLED" H 9000 5000 60  0001 C CNN
+F 3 "" H 9000 5000 60  0000 C CNN
+	1    9000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_DELETE1
+U 1 1 600F9803
+P 10000 5000
+F 0 "K_DELETE1" H 10000 5233 60  0000 C CNN
+F 1 "KEYSW" H 10000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10000 5000 60  0001 C CNN
+F 3 "" H 10000 5000 60  0000 C CNN
+	1    10000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_INSERT1
+U 1 1 600F0790
+P 10000 4000
+F 0 "K_INSERT1" H 10000 4233 60  0000 C CNN
+F 1 "KEYSW" H 10000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10000 4000 60  0001 C CNN
+F 3 "" H 10000 4000 60  0000 C CNN
+	1    10000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_BS1
+U 1 1 600FDE5E
+P 9000 7000
+F 0 "K_BS1" H 9000 7233 60  0000 C CNN
+F 1 "KEYSW" H 9000 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 7000 60  0001 C CNN
+F 3 "" H 9000 7000 60  0000 C CNN
+	1    9000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_BSLSH1
+U 1 1 600F5D9B
+P 3000 6000
+F 0 "K_BSLSH1" H 3000 6233 60  0000 C CNN
+F 1 "KEYSW" H 3000 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 6000 60  0001 C CNN
+F 3 "" H 3000 6000 60  0000 C CNN
+	1    3000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_EQUAL1
+U 1 1 600FC763
+P 3000 5000
+F 0 "K_EQUAL1" H 3000 5233 60  0000 C CNN
+F 1 "KEYSW" H 3000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 5000 60  0001 C CNN
+F 3 "" H 3000 5000 60  0000 C CNN
+	1    3000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_MINUS1
+U 1 1 600F89DC
+P 3000 4000
+F 0 "K_MINUS1" H 3000 4233 60  0000 C CNN
+F 1 "KEYSW" H 3000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 4000 60  0001 C CNN
+F 3 "" H 3000 4000 60  0000 C CNN
+	1    3000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_0
+U 1 1 600F3BC3
+P 2000 2000
+F 0 "K_0" H 2000 2233 60  0000 C CNN
+F 1 "KEYSW" H 2000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2000 2000 60  0001 C CNN
+F 3 "" H 2000 2000 60  0000 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_9
+U 1 1 600F7050
+P 3000 3000
+F 0 "K_9" H 3000 3233 60  0000 C CNN
+F 1 "KEYSW" H 3000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 3000 60  0001 C CNN
+F 3 "" H 3000 3000 60  0000 C CNN
+	1    3000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_8
+U 1 1 600F3E2F
+P 3000 2000
+F 0 "K_8" H 3000 2233 60  0000 C CNN
+F 1 "KEYSW" H 3000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 3000 2000 60  0001 C CNN
+F 3 "" H 3000 2000 60  0000 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_7
+U 1 1 600F64E8
+P 2050 8800
+F 0 "K_7" H 2050 9033 60  0000 C CNN
+F 1 "KEYSW" H 2050 8700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2050 8800 60  0001 C CNN
+F 3 "" H 2050 8800 60  0000 C CNN
+	1    2050 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_6
+U 1 1 600FDFC1
+P 2000 7950
+F 0 "K_6" H 2000 8183 60  0000 C CNN
+F 1 "KEYSW" H 2000 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2000 7950 60  0001 C CNN
+F 3 "" H 2000 7950 60  0000 C CNN
+	1    2000 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_5
+U 1 1 600F70F0
+P 2000 7000
+F 0 "K_5" H 2000 7233 60  0000 C CNN
+F 1 "KEYSW" H 2000 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2000 7000 60  0001 C CNN
+F 3 "" H 2000 7000 60  0000 C CNN
+	1    2000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_4
+U 1 1 600F5A28
+P 2000 6000
+F 0 "K_4" H 2000 6233 60  0000 C CNN
+F 1 "KEYSW" H 2000 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2000 6000 60  0001 C CNN
+F 3 "" H 2000 6000 60  0000 C CNN
+	1    2000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_3
+U 1 1 600F4CF1
+P 2000 5000
+F 0 "K_3" H 2000 5233 60  0000 C CNN
+F 1 "KEYSW" H 2000 4900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2000 5000 60  0001 C CNN
+F 3 "" H 2000 5000 60  0000 C CNN
+	1    2000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_2
+U 1 1 600FC1C9
+P 2000 4000
+F 0 "K_2" H 2000 4233 60  0000 C CNN
+F 1 "KEYSW" H 2000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2000 4000 60  0001 C CNN
+F 3 "" H 2000 4000 60  0000 C CNN
+	1    2000 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_1
+U 1 1 600F143C
+P 2000 3000
+F 0 "K_1" H 2000 3233 60  0000 C CNN
+F 1 "KEYSW" H 2000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 2000 3000 60  0001 C CNN
+F 3 "" H 2000 3000 60  0000 C CNN
+	1    2000 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 1400 3400 0    50   Input ~ 0
+row1
+$Comp
+L MSX1-cache:Switch_SW_Push K_ESC1
+U 1 1 600F3736
+P 9000 4000
+F 0 "K_ESC1" H 9000 4233 60  0000 C CNN
+F 1 "KEYSW" H 9000 3900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 9000 4000 60  0001 C CNN
+F 3 "" H 9000 4000 60  0000 C CNN
+	1    9000 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 1650 0    50   Input ~ 0
+col5
+$Comp
+L MSX1-cache:Switch_SW_Push K_STOP1
+U 1 1 600F3F4A
+P 9000 6000
+F 0 "K_STOP1" H 9000 6233 60  0000 C CNN
+F 1 "KEYSW" H 9000 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 9000 6000 60  0001 C CNN
+F 3 "" H 9000 6000 60  0000 C CNN
+	1    9000 6000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6300 1650 0    50   Input ~ 0
+col4
+$Comp
+L MSX1-cache:Switch_SW_Push K_F5
+U 1 1 600F1F2C
+P 9000 3000
+F 0 "K_F5" H 9000 3233 60  0000 C CNN
+F 1 "KEYSW" H 9000 2900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 9000 3000 60  0001 C CNN
+F 3 "" H 9000 3000 60  0000 C CNN
+	1    9000 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 1650 0    50   Input ~ 0
+col3
+$Comp
+L MSX1-cache:Switch_SW_Push K_F4
+U 1 1 600F091C
+P 9000 2000
+F 0 "K_F4" H 9000 2233 60  0000 C CNN
+F 1 "KEYSW" H 9000 1900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 9000 2000 60  0001 C CNN
+F 3 "" H 9000 2000 60  0000 C CNN
+	1    9000 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4300 1650 0    50   Input ~ 0
+col2
+$Comp
+L MSX1-cache:Switch_SW_Push K_F3
+U 1 1 600F3521
+P 8000 8750
+F 0 "K_F3" H 8000 8983 60  0000 C CNN
+F 1 "KEYSW" H 8000 8650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 8000 8750 60  0001 C CNN
+F 3 "" H 8000 8750 60  0000 C CNN
+	1    8000 8750
+	1    0    0    -1  
+$EndComp
+Text GLabel 3300 1650 0    50   Input ~ 0
+col1
+$Comp
+L MSX1-cache:Switch_SW_Push K_F2
+U 1 1 600F2753
+P 8000 7950
+F 0 "K_F2" H 8000 8183 60  0000 C CNN
+F 1 "KEYSW" H 8000 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 8000 7950 60  0001 C CNN
+F 3 "" H 8000 7950 60  0000 C CNN
+	1    8000 7950
+	1    0    0    -1  
+$EndComp
+Text GLabel 2300 1650 0    50   Input ~ 0
+col0
+Text GLabel 1400 2400 0    50   Input ~ 0
+row0
+$Comp
+L MSX1-cache:Switch_SW_Push K_F1
+U 1 1 600F9490
+P 8000 7000
+F 0 "K_F1" H 8000 7233 60  0000 C CNN
+F 1 "KEYSW" H 8000 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-2U-NoLED" H 8000 7000 60  0001 C CNN
+F 3 "" H 8000 7000 60  0000 C CNN
+	1    8000 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 2400 1750 2400
+Wire Wire Line
+	1800 2000 1750 2000
+Wire Wire Line
+	1750 2000 1750 2400
+Connection ~ 1750 2400
+Wire Wire Line
+	1750 2400 2700 2400
+Wire Wire Line
+	2200 2000 2300 2000
+Connection ~ 2300 2000
+Wire Wire Line
+	2300 2000 2300 3000
+Wire Wire Line
+	2800 2000 2700 2000
+Wire Wire Line
+	2700 2000 2700 2400
+Connection ~ 2700 2400
+Wire Wire Line
+	2700 2400 3650 2400
+Wire Wire Line
+	3650 2000 3800 2000
+Wire Wire Line
+	3650 2000 3650 2400
+Connection ~ 3650 2400
+Wire Wire Line
+	3650 2400 4650 2400
+Wire Wire Line
+	4650 2000 4800 2000
+Wire Wire Line
+	4650 2000 4650 2400
+Connection ~ 4650 2400
+Wire Wire Line
+	4650 2400 5650 2400
+Wire Wire Line
+	5650 2000 5800 2000
+Wire Wire Line
+	5650 2000 5650 2400
+Connection ~ 5650 2400
+Wire Wire Line
+	5650 2400 6650 2400
+Wire Wire Line
+	6650 2000 6800 2000
+Wire Wire Line
+	6650 2000 6650 2400
+Wire Wire Line
+	7200 2000 7300 2000
+Connection ~ 7300 2000
+Wire Wire Line
+	7300 2000 7300 3000
+Wire Wire Line
+	1400 3400 1650 3400
+Wire Wire Line
+	1650 3000 1650 3400
+Connection ~ 1650 3400
+Wire Wire Line
+	1650 3000 1800 3000
+Wire Wire Line
+	1650 3400 2650 3400
+Wire Wire Line
+	2650 3000 2650 3400
+Connection ~ 2650 3400
+Wire Wire Line
+	2650 3000 2800 3000
+Wire Wire Line
+	2650 3400 3650 3400
+Wire Wire Line
+	3650 3000 3650 3400
+Connection ~ 3650 3400
+Wire Wire Line
+	3650 3000 3800 3000
+Wire Wire Line
+	3650 3400 4650 3400
+Wire Wire Line
+	4650 3000 4650 3400
+Connection ~ 4650 3400
+Wire Wire Line
+	4650 3000 4800 3000
+Wire Wire Line
+	4650 3400 5650 3400
+Wire Wire Line
+	5650 3000 5800 3000
+Wire Wire Line
+	5650 3000 5650 3400
+Connection ~ 5650 3400
+Wire Wire Line
+	5650 3400 6650 3400
+Wire Wire Line
+	6200 3000 6300 3000
+Connection ~ 6300 3000
+Wire Wire Line
+	6300 3000 6300 4000
+Wire Wire Line
+	5200 3000 5300 3000
+Connection ~ 5300 3000
+Wire Wire Line
+	5300 3000 5300 4000
+Wire Wire Line
+	4200 3000 4300 3000
+Connection ~ 4300 3000
+Wire Wire Line
+	4300 3000 4300 4000
+Wire Wire Line
+	3200 3000 3300 3000
+Connection ~ 3300 3000
+Wire Wire Line
+	3300 3000 3300 4000
+Wire Wire Line
+	7200 3000 7300 3000
+Connection ~ 7300 3000
+Wire Wire Line
+	7300 3000 7300 4000
+Wire Wire Line
+	6650 3000 6800 3000
+Wire Wire Line
+	6650 3000 6650 3400
+Connection ~ 6650 3400
+Wire Wire Line
+	7650 3000 7650 3400
+Wire Wire Line
+	6650 3400 7650 3400
+Connection ~ 7650 3400
+Wire Wire Line
+	7650 3400 8650 3400
+Wire Wire Line
+	7650 3000 7800 3000
+Wire Wire Line
+	8200 3000 8300 3000
+Connection ~ 8300 3000
+Wire Wire Line
+	8300 3000 8300 4000
+Wire Wire Line
+	8650 3000 8650 3400
+Connection ~ 8650 3400
+Wire Wire Line
+	8650 3400 9650 3400
+Wire Wire Line
+	8650 3000 8800 3000
+Wire Wire Line
+	9200 3000 9300 3000
+Connection ~ 9300 3000
+Wire Wire Line
+	9300 3000 9300 4000
+Wire Wire Line
+	9650 3000 9650 3400
+Wire Wire Line
+	9650 3000 9800 3000
+Wire Wire Line
+	10200 3000 10300 3000
+Connection ~ 10300 3000
+Wire Wire Line
+	10300 3000 10300 4000
+Wire Wire Line
+	9650 4000 9800 4000
+Wire Wire Line
+	9650 4000 9650 4400
+Wire Wire Line
+	10200 4000 10300 4000
+Connection ~ 10300 4000
+Wire Wire Line
+	10300 4000 10300 5000
+Wire Wire Line
+	9200 4000 9300 4000
+Connection ~ 9300 4000
+Wire Wire Line
+	8650 4000 8800 4000
+Wire Wire Line
+	8650 4000 8650 4400
+Connection ~ 8650 4400
+Wire Wire Line
+	8650 4400 9650 4400
+Wire Wire Line
+	8200 4000 8300 4000
+Connection ~ 8300 4000
+Wire Wire Line
+	8300 4000 8300 5000
+Wire Wire Line
+	7650 4000 7800 4000
+Wire Wire Line
+	7650 4000 7650 4400
+Connection ~ 7650 4400
+Wire Wire Line
+	7650 4400 8650 4400
+Wire Wire Line
+	7200 4000 7300 4000
+Connection ~ 7300 4000
+Wire Wire Line
+	7300 4000 7300 5000
+Wire Wire Line
+	6650 4000 6800 4000
+Wire Wire Line
+	6650 4000 6650 4400
+Connection ~ 6650 4400
+Wire Wire Line
+	6650 4400 7650 4400
+Wire Wire Line
+	6200 4000 6300 4000
+Connection ~ 6300 4000
+Wire Wire Line
+	6300 4000 6300 5000
+Wire Wire Line
+	5650 4000 5800 4000
+Wire Wire Line
+	5650 4000 5650 4400
+Connection ~ 5650 4400
+Wire Wire Line
+	5650 4400 6650 4400
+Wire Wire Line
+	1400 4400 1650 4400
+Wire Wire Line
+	5200 4000 5300 4000
+Connection ~ 5300 4000
+Wire Wire Line
+	5300 4000 5300 5000
+Wire Wire Line
+	4650 4000 4800 4000
+Wire Wire Line
+	4650 4000 4650 4400
+Connection ~ 4650 4400
+Wire Wire Line
+	4650 4400 5650 4400
+Wire Wire Line
+	4200 4000 4300 4000
+Connection ~ 4300 4000
+Wire Wire Line
+	4300 4000 4300 5000
+Wire Wire Line
+	3650 4000 3800 4000
+Wire Wire Line
+	3650 4000 3650 4400
+Connection ~ 3650 4400
+Wire Wire Line
+	3650 4400 4650 4400
+Wire Wire Line
+	3200 4000 3300 4000
+Connection ~ 3300 4000
+Wire Wire Line
+	3300 4000 3300 5000
+Wire Wire Line
+	2650 4000 2800 4000
+Wire Wire Line
+	2650 4000 2650 4400
+Connection ~ 2650 4400
+Wire Wire Line
+	2650 4400 3650 4400
+Wire Wire Line
+	2200 4000 2300 4000
+Connection ~ 2300 4000
+Wire Wire Line
+	2300 4000 2300 5000
+Wire Wire Line
+	1650 4000 1800 4000
+Wire Wire Line
+	1650 4000 1650 4400
+Connection ~ 1650 4400
+Wire Wire Line
+	1650 4400 2650 4400
+Text GLabel 8300 1650 0    50   Input ~ 0
+col6
+Text GLabel 9300 1650 0    50   Input ~ 0
+col7
+Text GLabel 10300 1650 0    50   Input ~ 0
+col8
+Wire Wire Line
+	1400 7400 1650 7400
+Wire Wire Line
+	1400 6400 1650 6400
+Wire Wire Line
+	1400 5400 1650 5400
+Wire Wire Line
+	2200 5000 2300 5000
+Connection ~ 2300 5000
+Wire Wire Line
+	2300 5000 2300 6000
+Wire Wire Line
+	1650 5000 1650 5400
+Connection ~ 1650 5400
+Wire Wire Line
+	1650 5400 2650 5400
+Wire Wire Line
+	1650 5000 1800 5000
+Wire Wire Line
+	2650 5000 2650 5400
+Connection ~ 2650 5400
+Wire Wire Line
+	2650 5000 2800 5000
+Wire Wire Line
+	3200 5000 3300 5000
+Connection ~ 3300 5000
+Wire Wire Line
+	3300 5000 3300 6000
+Wire Wire Line
+	3650 5000 3800 5000
+Wire Wire Line
+	3650 5000 3650 5400
+Wire Wire Line
+	2650 5400 3650 5400
+Connection ~ 3650 5400
+Wire Wire Line
+	3650 5400 4650 5400
+Wire Wire Line
+	4200 5000 4300 5000
+Connection ~ 4300 5000
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J-KB1
+U 1 1 61E5BE4E
+P 3700 10100
+F 0 "J-KB1" V 3704 9512 50  0000 R CNN
+F 1 "Keyboard XY" V 3795 9512 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 3700 10100 50  0001 C CNN
+F 3 "~" H 3700 10100 50  0001 C CNN
+	1    3700 10100
+	0    -1   1    0   
+$EndComp
+Text Notes 6850 10600 0    50   ~ 0
+1/3/5/7/9/11/13/15/17/19   1-8  X\n2/4/6/8/10/12/14/16/18/20  9-1 Y
+Text GLabel 1450 9150 0    50   Input ~ 0
+row7
+Text GLabel 1400 8250 0    50   Input ~ 0
+row6
+Text Notes 7250 10850 0    50   ~ 0
+ROW = X\nCOL = Y
+Text Notes 750  2400 0    197  ~ 0
+X
+Text Notes 2450 1100 0    197  ~ 0
+Y
+Wire Wire Line
+	2200 6000 2300 6000
+Connection ~ 2300 6000
+Wire Wire Line
+	2300 6000 2300 7000
+Wire Wire Line
+	2200 7000 2300 7000
+Wire Wire Line
+	1650 7000 1650 7400
+Connection ~ 1650 7400
+Wire Wire Line
+	1650 7400 2650 7400
+Wire Wire Line
+	1650 7000 1800 7000
+Wire Wire Line
+	1400 8250 1800 8250
+Wire Wire Line
+	1800 7950 1800 8250
+Connection ~ 1800 8250
+Wire Wire Line
+	1800 8250 2800 8250
+Wire Wire Line
+	2300 7000 2300 7950
+Wire Wire Line
+	2300 7950 2200 7950
+Connection ~ 2300 7000
+Wire Wire Line
+	2300 7950 2300 8800
+Wire Wire Line
+	2300 8800 2250 8800
+Connection ~ 2300 7950
+Wire Wire Line
+	1450 9150 1650 9150
+Wire Wire Line
+	1850 8800 1650 8800
+Wire Wire Line
+	1650 8800 1650 9150
+Connection ~ 1650 9150
+Wire Wire Line
+	1650 9150 2750 9150
+Wire Wire Line
+	3200 2000 3300 2000
+Connection ~ 3300 2000
+Wire Wire Line
+	3300 2000 3300 3000
+Wire Wire Line
+	2200 3000 2300 3000
+Connection ~ 2300 3000
+Wire Wire Line
+	2300 3000 2300 4000
+Wire Wire Line
+	2800 7950 2800 8250
+Connection ~ 2800 8250
+Wire Wire Line
+	2800 8250 3800 8250
+Wire Wire Line
+	3300 7000 3200 7000
+Wire Wire Line
+	3300 7000 3300 7950
+Wire Wire Line
+	3300 7950 3200 7950
+Connection ~ 3300 7000
+Wire Wire Line
+	3800 7950 3800 8250
+Connection ~ 3800 8250
+Wire Wire Line
+	4200 7950 4300 7950
+Wire Wire Line
+	4300 5000 4300 6000
+Wire Wire Line
+	4200 7000 4300 7000
+Connection ~ 4300 7000
+Wire Wire Line
+	4300 7000 4300 7950
+Wire Wire Line
+	3650 7000 3800 7000
+Wire Wire Line
+	3650 7000 3650 7400
+Connection ~ 3650 7400
+Wire Wire Line
+	3650 7400 4650 7400
+Wire Wire Line
+	2650 7000 2800 7000
+Wire Wire Line
+	2650 7000 2650 7400
+Connection ~ 2650 7400
+Wire Wire Line
+	2650 7400 3650 7400
+Wire Wire Line
+	2800 8800 2750 8800
+Wire Wire Line
+	2750 8800 2750 9150
+Connection ~ 2750 9150
+Wire Wire Line
+	2750 9150 3800 9150
+Wire Wire Line
+	3300 7950 3300 8800
+Wire Wire Line
+	3300 8800 3200 8800
+Connection ~ 3300 7950
+Wire Wire Line
+	3800 8800 3800 9150
+Connection ~ 3800 9150
+Wire Wire Line
+	4300 7950 4300 8800
+Wire Wire Line
+	4300 8800 4200 8800
+Connection ~ 4300 7950
+Wire Wire Line
+	3650 6000 3800 6000
+Wire Wire Line
+	4200 6000 4300 6000
+Connection ~ 4300 6000
+Wire Wire Line
+	4300 6000 4300 7000
+Wire Wire Line
+	3650 6000 3650 6400
+Connection ~ 3650 6400
+Wire Wire Line
+	3650 6400 4650 6400
+Wire Wire Line
+	3200 6000 3300 6000
+Connection ~ 3300 6000
+Wire Wire Line
+	3300 6000 3300 7000
+Wire Wire Line
+	2650 6000 2800 6000
+Wire Wire Line
+	2650 6000 2650 6400
+Connection ~ 2650 6400
+Wire Wire Line
+	2650 6400 3650 6400
+Wire Wire Line
+	1650 6000 1800 6000
+Wire Wire Line
+	1650 6000 1650 6400
+Connection ~ 1650 6400
+Wire Wire Line
+	1650 6400 2650 6400
+Wire Wire Line
+	4200 2000 4300 2000
+Connection ~ 4300 2000
+Wire Wire Line
+	4300 2000 4300 3000
+Wire Wire Line
+	3800 8250 4650 8250
+Wire Wire Line
+	3800 9150 4650 9150
+Wire Wire Line
+	5100 5000 5300 5000
+Connection ~ 5300 5000
+Wire Wire Line
+	5300 5000 5300 6000
+Wire Wire Line
+	4650 5000 4650 5400
+Connection ~ 4650 5400
+Wire Wire Line
+	4650 5400 5650 5400
+Wire Wire Line
+	5100 6000 5300 6000
+Connection ~ 5300 6000
+Wire Wire Line
+	5300 6000 5300 7000
+Wire Wire Line
+	4650 6000 4650 6400
+Connection ~ 4650 6400
+Wire Wire Line
+	4650 6400 5650 6400
+Wire Wire Line
+	5100 7000 5300 7000
+Wire Wire Line
+	4650 7000 4650 7400
+Connection ~ 4650 7400
+Wire Wire Line
+	4650 7400 5650 7400
+Wire Wire Line
+	4750 7950 4650 7950
+Wire Wire Line
+	4650 7950 4650 8250
+Connection ~ 4650 8250
+Wire Wire Line
+	4650 8250 5650 8250
+Connection ~ 4650 9150
+Wire Wire Line
+	4650 9150 5650 9150
+Wire Wire Line
+	5300 7000 5300 7950
+Wire Wire Line
+	5300 8750 5150 8750
+Connection ~ 5300 7000
+Wire Wire Line
+	5150 7950 5300 7950
+Connection ~ 5300 7950
+Wire Wire Line
+	5300 7950 5300 8750
+Wire Wire Line
+	5200 2000 5300 2000
+Connection ~ 5300 2000
+Wire Wire Line
+	5300 2000 5300 3000
+Wire Wire Line
+	6200 2000 6300 2000
+Connection ~ 6300 2000
+Wire Wire Line
+	6300 2000 6300 3000
+Wire Wire Line
+	6100 5000 6300 5000
+Connection ~ 6300 5000
+Wire Wire Line
+	6300 5000 6300 6000
+Wire Wire Line
+	5650 5000 5650 5400
+Connection ~ 5650 5400
+Wire Wire Line
+	5650 5400 6650 5400
+Wire Wire Line
+	6100 6000 6300 6000
+Connection ~ 6300 6000
+Wire Wire Line
+	6300 6000 6300 7000
+Wire Wire Line
+	5650 6000 5650 6400
+Connection ~ 5650 6400
+Wire Wire Line
+	5650 6400 6650 6400
+Wire Wire Line
+	6100 7000 6300 7000
+Wire Wire Line
+	6300 7000 6300 7950
+Wire Wire Line
+	6300 7950 6150 7950
+Connection ~ 6300 7000
+Wire Wire Line
+	5650 7000 5650 7400
+Connection ~ 5650 7400
+Wire Wire Line
+	5650 7400 6650 7400
+Wire Wire Line
+	5750 7950 5650 7950
+Wire Wire Line
+	5650 7950 5650 8250
+Connection ~ 5650 8250
+Wire Wire Line
+	5650 8250 6650 8250
+Wire Wire Line
+	5750 8750 5650 8750
+Wire Wire Line
+	5650 8750 5650 9150
+Connection ~ 5650 9150
+Wire Wire Line
+	5650 9150 6750 9150
+Wire Wire Line
+	6300 7950 6300 8750
+Wire Wire Line
+	6300 8750 6150 8750
+Connection ~ 6300 7950
+Wire Wire Line
+	6650 7000 6650 7400
+Connection ~ 6650 7400
+Wire Wire Line
+	6650 7400 7650 7400
+Wire Wire Line
+	6750 7950 6650 7950
+Wire Wire Line
+	6650 7950 6650 8250
+Connection ~ 6650 8250
+Wire Wire Line
+	6650 8250 7800 8250
+Wire Wire Line
+	7100 7000 7300 7000
+Wire Wire Line
+	7300 7000 7300 7950
+Wire Wire Line
+	7300 7950 7150 7950
+Connection ~ 7300 7000
+Wire Wire Line
+	7300 7950 7300 8750
+Wire Wire Line
+	7300 8750 7150 8750
+Connection ~ 7300 7950
+Wire Wire Line
+	6750 8750 6750 9150
+Connection ~ 6750 9150
+Wire Wire Line
+	6750 9150 7800 9150
+Wire Wire Line
+	6650 6000 6650 6400
+Connection ~ 6650 6400
+Wire Wire Line
+	6650 6000 6750 6000
+Wire Wire Line
+	7150 6000 7300 6000
+Connection ~ 7300 6000
+Wire Wire Line
+	7300 6000 7300 7000
+Wire Wire Line
+	7100 5000 7300 5000
+Connection ~ 7300 5000
+Wire Wire Line
+	7300 5000 7300 6000
+Wire Wire Line
+	6650 5000 6650 5400
+Connection ~ 6650 5400
+Wire Wire Line
+	8300 1650 8300 1950
+Wire Wire Line
+	6650 2400 7650 2400
+Wire Wire Line
+	7650 2400 7650 2300
+Connection ~ 6650 2400
+Wire Wire Line
+	7650 2300 7650 1950
+Connection ~ 7650 2300
+Wire Wire Line
+	8050 1950 8300 1950
+Connection ~ 8300 1950
+Wire Wire Line
+	8300 1950 8300 2300
+Wire Wire Line
+	8050 2300 8300 2300
+Connection ~ 8300 2300
+Wire Wire Line
+	8300 2300 8300 3000
+Wire Wire Line
+	7650 5000 7800 5000
+Wire Wire Line
+	8200 5000 8300 5000
+Connection ~ 8300 5000
+Wire Wire Line
+	8300 5000 8300 6000
+Wire Wire Line
+	6650 5400 7650 5400
+Wire Wire Line
+	7650 5000 7650 5400
+Connection ~ 7650 5400
+Wire Wire Line
+	8200 6000 8300 6000
+Connection ~ 8300 6000
+Wire Wire Line
+	8300 6000 8300 7000
+Wire Wire Line
+	7650 6000 7800 6000
+Wire Wire Line
+	6650 6400 7650 6400
+Wire Wire Line
+	7650 6000 7650 6400
+Connection ~ 7650 6400
+Wire Wire Line
+	8200 7000 8300 7000
+Wire Wire Line
+	7650 7000 7800 7000
+Wire Wire Line
+	7650 7000 7650 7400
+Wire Wire Line
+	8200 8750 8300 8750
+Wire Wire Line
+	8300 8750 8300 7950
+Connection ~ 8300 7000
+Wire Wire Line
+	8200 7950 8300 7950
+Connection ~ 8300 7950
+Wire Wire Line
+	8300 7950 8300 7000
+Wire Wire Line
+	7800 7950 7800 8250
+Connection ~ 7800 8250
+Wire Wire Line
+	7800 8750 7800 9150
+Connection ~ 7800 9150
+Wire Wire Line
+	9300 1650 9300 2000
+Wire Wire Line
+	9200 2000 9300 2000
+Connection ~ 9300 2000
+Wire Wire Line
+	9300 2000 9300 3000
+Wire Wire Line
+	7650 2400 8700 2400
+Connection ~ 7650 2400
+Wire Wire Line
+	8800 2000 8700 2000
+Wire Wire Line
+	8700 2000 8700 2400
+Connection ~ 8700 2400
+Wire Wire Line
+	8700 2400 9750 2400
+Wire Wire Line
+	9300 8750 9200 8750
+Wire Wire Line
+	9300 4000 9300 5000
+Wire Wire Line
+	9200 6000 9300 6000
+Connection ~ 9300 6000
+Wire Wire Line
+	9300 6000 9300 7000
+Wire Wire Line
+	9200 7000 9300 7000
+Connection ~ 9300 7000
+Wire Wire Line
+	9300 7000 9300 7950
+Wire Wire Line
+	9200 7950 9300 7950
+Connection ~ 9300 7950
+Wire Wire Line
+	9300 7950 9300 8750
+Wire Wire Line
+	7650 7400 8750 7400
+Connection ~ 7650 7400
+Wire Wire Line
+	7800 8250 8750 8250
+Wire Wire Line
+	7800 9150 8750 9150
+Wire Wire Line
+	8800 7000 8750 7000
+Wire Wire Line
+	8750 7000 8750 7400
+Connection ~ 8750 7400
+Wire Wire Line
+	8750 7400 9800 7400
+Wire Wire Line
+	8800 7950 8750 7950
+Wire Wire Line
+	8750 7950 8750 8250
+Connection ~ 8750 8250
+Wire Wire Line
+	8750 8250 9800 8250
+Wire Wire Line
+	8800 8750 8750 8750
+Wire Wire Line
+	8750 8750 8750 9150
+Connection ~ 8750 9150
+Wire Wire Line
+	8750 9150 9800 9150
+Wire Wire Line
+	7650 6400 8650 6400
+Wire Wire Line
+	8650 6000 8650 6400
+Connection ~ 8650 6400
+Wire Wire Line
+	8650 6000 8800 6000
+Wire Wire Line
+	9200 5000 9300 5000
+Connection ~ 9300 5000
+Wire Wire Line
+	9300 5000 9300 6000
+Wire Wire Line
+	7650 5400 8650 5400
+Wire Wire Line
+	8650 5000 8650 5400
+Connection ~ 8650 5400
+Wire Wire Line
+	8650 5000 8800 5000
+Wire Wire Line
+	9750 2000 9750 2400
+Wire Wire Line
+	10150 2000 10300 2000
+Wire Wire Line
+	10300 1650 10300 2000
+Connection ~ 10300 2000
+Wire Wire Line
+	10300 2000 10300 3000
+Text Notes 9800 2150 0    59   ~ 0
+SPACE
+Wire Wire Line
+	9650 5000 9800 5000
+Wire Wire Line
+	10200 5000 10300 5000
+Connection ~ 10300 5000
+Wire Wire Line
+	10300 5000 10300 6000
+Wire Wire Line
+	8650 5400 9650 5400
+Wire Wire Line
+	9650 5000 9650 5400
+Wire Wire Line
+	10200 6000 10300 6000
+Wire Wire Line
+	9650 6000 9800 6000
+Wire Wire Line
+	8650 6400 9650 6400
+Wire Wire Line
+	9650 6000 9650 6400
+Wire Wire Line
+	10200 8750 10300 8750
+Wire Wire Line
+	10300 8750 10300 7950
+Connection ~ 10300 6000
+Wire Wire Line
+	10200 7000 10300 7000
+Connection ~ 10300 7000
+Wire Wire Line
+	10300 7000 10300 6000
+Wire Wire Line
+	10200 7950 10300 7950
+Connection ~ 10300 7950
+Wire Wire Line
+	10300 7950 10300 7000
+Wire Wire Line
+	9800 7000 9800 7400
+Wire Wire Line
+	9800 7950 9800 8250
+Wire Wire Line
+	9800 8750 9800 9150
+Text GLabel 3800 9900 1    50   Input ~ 0
+row5
+Text GLabel 3700 9900 1    50   Input ~ 0
+row4
+Text GLabel 3600 9900 1    50   Input ~ 0
+row3
+Text GLabel 3500 9900 1    50   Input ~ 0
+row2
+Text GLabel 3400 9900 1    50   Input ~ 0
+row1
+Text GLabel 3300 9900 1    50   Input ~ 0
+row0
+Text GLabel 4000 9900 1    50   Input ~ 0
+row7
+Text GLabel 3900 9900 1    50   Input ~ 0
+row6
+Text GLabel 3800 10400 3    50   Input ~ 0
+col5
+Text GLabel 3700 10400 3    50   Input ~ 0
+col4
+Text GLabel 3600 10400 3    50   Input ~ 0
+col3
+Text GLabel 3500 10400 3    50   Input ~ 0
+col2
+Text GLabel 3400 10400 3    50   Input ~ 0
+col1
+Text GLabel 3300 10400 3    50   Input ~ 0
+col0
+Text GLabel 3900 10400 3    50   Input ~ 0
+col6
+Text GLabel 4000 10400 3    50   Input ~ 0
+col7
+Text GLabel 4100 10400 3    50   Input ~ 0
+col8
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J-KB2
+U 1 1 6335EC08
+P 5350 10100
+F 0 "J-KB2" V 5354 9512 50  0000 R CNN
+F 1 "Keyboard XY" V 5445 9512 50  0000 R CNN
+F 2 "Connector_IDC:IDC-Header_2x10_P2.54mm_Vertical" H 5350 10100 50  0001 C CNN
+F 3 "~" H 5350 10100 50  0001 C CNN
+	1    5350 10100
+	0    -1   1    0   
+$EndComp
+Text GLabel 5450 9900 1    50   Input ~ 0
+row5
+Text GLabel 5350 9900 1    50   Input ~ 0
+row4
+Text GLabel 5250 9900 1    50   Input ~ 0
+row3
+Text GLabel 5150 9900 1    50   Input ~ 0
+row2
+Text GLabel 5050 9900 1    50   Input ~ 0
+row1
+Text GLabel 4950 9900 1    50   Input ~ 0
+row0
+Text GLabel 5650 9900 1    50   Input ~ 0
+row7
+Text GLabel 5550 9900 1    50   Input ~ 0
+row6
+Text GLabel 5250 10400 3    50   Input ~ 0
+col5
+Text GLabel 5350 10400 3    50   Input ~ 0
+col4
+Text GLabel 5450 10400 3    50   Input ~ 0
+col3
+Text GLabel 5550 10400 3    50   Input ~ 0
+col2
+Text GLabel 5650 10400 3    50   Input ~ 0
+col1
+Text GLabel 5750 10400 3    50   Input ~ 0
+col0
+Text GLabel 5150 10400 3    50   Input ~ 0
+col6
+Text GLabel 5050 10400 3    50   Input ~ 0
+col7
+Text GLabel 4950 10400 3    50   Input ~ 0
+col8
+Text Notes 6850 9850 0    50   ~ 0
+1/3/5/7/9/11/13/15/17/19   1-8  X\n2/4/6/8/10/12/14/16/18/20  1-9 Y
+Text Notes 7250 10100 0    50   ~ 0
+ROW = X\nCOL = Y
+Text Notes 7200 10350 0    47   ~ 9
+J-KB2  Y=Reverse
+Text Notes 7200 9600 0    47   ~ 9
+J-KB1  normal
+$Comp
+L MSX1-cache:Switch_SW_Push K_LEFT1
+U 1 1 600F5347
+P 10000 6000
+F 0 "K_LEFT1" H 10000 6233 60  0000 C CNN
+F 1 "KEYSW" H 10000 5900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10000 6000 60  0001 C CNN
+F 3 "" H 10000 6000 60  0000 C CNN
+	1    10000 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_UP1
+U 1 1 600F71EA
+P 10000 7000
+F 0 "K_UP1" H 10000 7233 60  0000 C CNN
+F 1 "KEYSW" H 10000 6900 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10000 7000 60  0001 C CNN
+F 3 "" H 10000 7000 60  0000 C CNN
+	1    10000 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_DOWN1
+U 1 1 600F87F7
+P 10000 7950
+F 0 "K_DOWN1" H 10000 8183 60  0000 C CNN
+F 1 "KEYSW" H 10000 7850 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10000 7950 60  0001 C CNN
+F 3 "" H 10000 7950 60  0000 C CNN
+	1    10000 7950
+	1    0    0    -1  
+$EndComp
+$Comp
+L MSX1-cache:Switch_SW_Push K_RIGHT1
+U 1 1 600F4093
+P 10000 8750
+F 0 "K_RIGHT1" H 10000 8983 60  0000 C CNN
+F 1 "KEYSW" H 10000 8650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U-NoLED" H 10000 8750 60  0001 C CNN
+F 3 "" H 10000 8750 60  0000 C CNN
+	1    10000 8750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 635DDC64
+P 12850 6750
+F 0 "H3" H 12950 6796 50  0000 L CNN
+F 1 "MountingHole" H 12950 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 12850 6750 50  0001 C CNN
+F 3 "~" H 12850 6750 50  0001 C CNN
+	1    12850 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 635DEDC3
+P 12850 7150
+F 0 "H4" H 12950 7196 50  0000 L CNN
+F 1 "MountingHole" H 12950 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 12850 7150 50  0001 C CNN
+F 3 "~" H 12850 7150 50  0001 C CNN
+	1    12850 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 635DF258
+P 12000 6750
+F 0 "H1" H 12100 6796 50  0000 L CNN
+F 1 "MountingHole" H 12100 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 12000 6750 50  0001 C CNN
+F 3 "~" H 12000 6750 50  0001 C CNN
+	1    12000 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 635DF262
+P 12000 7150
+F 0 "H2" H 12100 7196 50  0000 L CNN
+F 1 "MountingHole" H 12100 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 12000 7150 50  0001 C CNN
+F 3 "~" H 12000 7150 50  0001 C CNN
+	1    12000 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 635FD62A
+P 13750 6750
+F 0 "H5" H 13850 6796 50  0000 L CNN
+F 1 "MountingHole" H 13850 6705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 13750 6750 50  0001 C CNN
+F 3 "~" H 13750 6750 50  0001 C CNN
+	1    13750 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 635FD634
+P 13750 7150
+F 0 "H6" H 13850 7196 50  0000 L CNN
+F 1 "MountingHole" H 13850 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_4.3mm_M4_DIN965_Pad" H 13750 7150 50  0001 C CNN
+F 3 "~" H 13750 7150 50  0001 C CNN
+	1    13750 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 8750 4750 8750
+Wire Wire Line
+	4650 8750 4650 9150
+$EndSCHEMATC
